@@ -19,12 +19,12 @@ if os.path.isfile(zip_file):
 input_pdf = "./test.pdf"
 
 
-config = json.load(open('pdfservices-api-credentials.json'))
-#Initial setup, create credentials instance.
-credentials = Credentials.service_principal_credentials_builder() \
-    .with_client_id(config['client_credentials']['client_id']) \
-    .with_client_secret(config['client_credentials']['client_secret']) \
-    .build()
+# config = json.load(open('pdfservices-api-credentials.json'))
+# #Initial setup, create credentials instance.
+# credentials = Credentials.service_principal_credentials_builder() \
+#     .with_client_id(config['client_credentials']['client_id']) \
+#     .with_client_secret(config['client_credentials']['client_secret']) \
+#     .build()
 
 # #Initial setup, create credentials instance.
 # credentials = Credentials.service_principal_credentials_builder() \

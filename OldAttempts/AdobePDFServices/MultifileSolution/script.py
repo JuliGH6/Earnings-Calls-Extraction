@@ -44,12 +44,12 @@ def alterPageRange(input_pdf_path, phrase):
 
 
 
-config = json.load(open('pdfservices-api-credentials.json'))
-#Initial setup, create credentials instance.
-credentials = Credentials.service_principal_credentials_builder() \
-    .with_client_id(config['client_credentials']['client_id']) \
-    .with_client_secret(config['client_credentials']['client_secret']) \
-    .build()
+# config = json.load(open('pdfservices-api-credentials.json'))
+# #Initial setup, create credentials instance.
+# credentials = Credentials.service_principal_credentials_builder() \
+#     .with_client_id(config['client_credentials']['client_id']) \
+#     .with_client_secret(config['client_credentials']['client_secret']) \
+#     .build()
 
 zip_file = "./ExtractTextInfoFromPDF.zip"
 
